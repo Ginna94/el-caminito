@@ -1,0 +1,121 @@
+/* Globals Html */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+/*========================= Header =========================*/
+
+header {
+	background: url(../img/banner.jpg) no-repeat;
+  height: 60rem;
+}
+
+header h1 {
+  color: #fff;
+  margin-top: 29rem;
+  margin-left: 25rem;
+  font-size: 40px;
+}
+
+header h2 {
+  color: #fff;
+  margin-left: 25rem;
+  font-size: 20px;
+}
+
+.logo {
+	height: 11rem;
+  margin-top: -3px;
+  margin-left: 120px;
+  float: left;
+}
+
+.navegacion {
+  background-color: #E1E1E1;
+  height: 5rem;
+  margin: -1rem;
+}
+
+.navegacion ul li {
+   margin-right: -2px;
+   margin-top: -9px;
+   padding: 3rem;
+   display: inline-block;
+
+}
+
+.navegacion ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  height: 8rem;
+  color: #3F3F3F;
+
+}
+
+.navegacion ul li:hover {
+  background:#CCCCCC;
+  height: 5rem;
+
+}
+
+/*========================= contenido Acerca =========================*/
+
+.contenido-acerca {
+	background: #CCCCCC;
+	height: 30rem;
+	width: 100%;
+	float: left;
+  
+
+}
+
+.definicion {
+	 max-width: 1000px;
+   margin: 0 auto;
+   padding: 49px;
+}
+
+.definicion p {
+	float: left;
+	width: 70%;
+	font-size: 11px;
+}
+/*========================= botones contenido Acerca =========================*/
+
+.conozca-mas {
+  margin-left: 16px;
+  height: 50px;
+  width: 180px;
+  border: 2px solid #418DBA;
+  color: #fff;
+  background: #418DBA;
+}
+
+aside {
+	float: left;
+  background: #E1E1E1;
+  height: 100px;
+  width: 100%;
+}
+
+aside button {
+	margin-left: 104px;
+  margin-top: 27px;
+  border-radius: 20px;
+  height: 50px;
+  width: 180px;
+  color: #fff;
+  background: #418DBA;
+  border: 2px solid #418DBA;
+}
