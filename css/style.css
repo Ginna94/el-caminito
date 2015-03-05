@@ -16,19 +16,20 @@ body {
 }
 /*========================= Header =========================*/
 
-header {
+.header-inicial {
 	background: url(../img/banner.jpg) no-repeat;
-  height: 60rem;
+  background-size: cover;
+  height: 600px;
 }
 
-header h1 {
+.header-inicial h1 {
   color: #fff;
-  margin-top: 29rem;
+  margin-top: 290px;
   margin-left: 25rem;
   font-size: 40px;
 }
 
-header h2 {
+.header-inicial h2 {
   color: #fff;
   margin-left: 25rem;
   font-size: 20px;
@@ -69,11 +70,11 @@ header h2 {
 
 }
 
-/*========================= contenido Acerca =========================*/
+/*========================= contenido Acerca ==================*/
 
 .contenido-acerca {
 	background: #CCCCCC;
-	height: 30rem;
+	height: 300px;
 	width: 100%;
 	float: left;
   
@@ -91,9 +92,9 @@ header h2 {
 	width: 70%;
 	font-size: 11px;
 }
-/*========================= botones contenido Acerca =========================*/
+/*========================= botones =========================*/
 
-.conozca-mas {
+.button-square {
   margin-left: 16px;
   height: 50px;
   width: 180px;
@@ -109,7 +110,7 @@ aside {
   width: 100%;
 }
 
-aside button {
+.button-pill {
 	margin-left: 104px;
   margin-top: 27px;
   border-radius: 20px;
@@ -119,3 +120,119 @@ aside button {
   background: #418DBA;
   border: 2px solid #418DBA;
 }
+
+.button-small {
+  width: 100px;
+  margin-left: 1px;
+}
+
+/*======================= contenedor de imagenes =================*/
+
+.contenedor-imagenes {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.info {
+  margin-top: 43px;
+  margin-left: 117px;
+  float: left;
+}
+
+.info a {
+  margin-top: 24px;
+  margin-left: 300px;
+  float: left;
+  height: 40px;
+  color: #5A8BB4;
+  
+}
+
+hr {
+  width: 100%;
+}
+
+.img {
+  width: 16%;
+  height: 132px;
+  background-color: #808080;
+  display: inline-block;
+  padding: 44px;
+
+}
+
+.info .title-info {
+  text-align: center;
+}
+
+/*=========================  Noticias y Eventos =====================*/
+
+
+.contenedor-imagenes h3, a{
+  color: #4D89B0;
+}
+
+.noticias-eventos {
+  margin-top: 42px;
+  float: left;
+}
+
+.noticias {
+  float: left;
+  width: 29%;
+}
+
+.eventos {
+  float: left;
+  width: 29%;
+  margin-left: 54px;
+}
+
+.reserve {
+  float: right;
+  width: 15%;
+  margin-right: 135px;
+}
+
+.ver-noticias {
+  margin-left: 181px;
+}
+
+
+/*========================= Footer ===============================*/
+
+.footer-contacto {
+  height: 300px;
+  background-color: #FBFBFB;
+}
+
+
+.siganos-en {
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.contacto-inicio {
+  float: right;
+  width: 35%;
+  margin-top: 32px;
+  font-size: 12px;
+}
+
+.title-footer {
+  float: left;
+  height: 53px;
+  width: 20%;
+  margin-top: 56px;
+}
+
+.links-footer {
+  margin-top: 59px;
+  float: left;
+  list-style: none;
+  font-size: 15px;
+  color: #4690B7;
+}
+
